@@ -94,7 +94,7 @@ const TokensTable = () => {
     let nextUrl;
   
     if (nextLink) {
-      nextUrl = nextLink + `/#/?settings={"key":"sk-${key}"}`;
+      nextUrl = nextLink + `/#/?settings={"key":"sk-${key}","url":"${serverAddress}"}`;
     } else {
       nextUrl = `https://www.gptvip.cn/#/?settings={"key":"sk-${key}","url":"${serverAddress}"}`;
     }
